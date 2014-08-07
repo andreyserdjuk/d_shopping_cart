@@ -78,98 +78,98 @@ class Invoice extends Entity
 	protected $deleted = FALSE;
 	
 	
-    public function __construct()
-    {
-        $this->payments = new \Doctrine\Common\Collections\ArrayCollection();
-    }
+	public function __construct()
+	{
+		$this->payments = new \Doctrine\Common\Collections\ArrayCollection();
+	}
 
-    public function getPayments()
-    {
-    	return $this->payments;
-    }
+	public function getPayments()
+	{
+		return $this->payments;
+	}
 
-    public function setPayment($payment)
-    {
-    	$this->payments[] = $payment;
-    }
+	public function setPayment($payment)
+	{
+		$this->payments[] = $payment;
+	}
 	
 	public function setSumWithoutDiscount($sumWithoutDiscount)
 	{
-	   $this->sumWithoutDiscount = $sumWithoutDiscount;
+		$this->sumWithoutDiscount = $sumWithoutDiscount;
 	}
 
 	public function getSumWithoutDiscount()
 	{
-	   return $this->sumWithoutDiscount;
+		return $this->sumWithoutDiscount;
 	}
 
 	public function setOperator($operator)
 	{
-	   $this->operator = $operator;
+		$this->operator = $operator;
 	}
 
 	public function getOperator()
 	{
-	   return $this->operator;
+		return $this->operator;
 	}
 
 	public function setService($service)
 	{
-	   $this->service = $service;
+		$this->service = $service;
 	}
 
 	public function getService()
 	{
-	   return $this->service;
+		return $this->service;
 	}
 
 	public function setServiceQuantity($serviceQuantity)
 	{
-	   $this->serviceQuantity = $serviceQuantity;
+		$this->serviceQuantity = $serviceQuantity;
 	}
 
 	public function getServiceQuantity()
 	{
-	   return $this->serviceQuantity;
+		return $this->serviceQuantity;
 	}
 
 	public function setOrder($order)
 	{
-	   $this->order = $order;
+		$this->order = $order;
 	}
 
 	public function getOrder()
 	{
-	   return $this->order;
+		return $this->order;
 	}
 
 	public function setSum($sum)
 	{
-	   $this->sum = $sum;
+		$this->sum = $sum;
 	}
 
 	public function getSum()
 	{
-	   return (double) $this->sum;
+		return (double) $this->sum;
 	}
 
 	public function setDiscount($discount)
 	{
-	   $this->discount = $discount;
+		$this->discount = $discount;
 	}
 
 	public function getDiscount()
 	{
-	   return $this->discount;
+		return $this->discount;
 	}
 
 	public function setSumTotal($sumTotal)
 	{
-	   $this->sumTotal = $sumTotal;
+		$this->sumTotal = $sumTotal;
 	}
 
 	public function getSumTotal()
 	{
-	   return (double) $this->sumTotal;
+		return (double) $this->sumTotal;
 	}
 }

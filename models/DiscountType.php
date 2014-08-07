@@ -23,15 +23,15 @@ Class DiscountType extends Entity {
 	 */
 	protected $name;
 
-    function getId() {
-    	return $this->id;
-    }
+	function getId() {
+		return $this->id;
+	}
 
 	function setTitle($title) {
-	   $this->title = $title;
+		$this->title = $title;
 	}
 
 	function getTitle() {
-	   return $this->title;
+		return $this->title;
 	}
 }

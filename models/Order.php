@@ -86,22 +86,22 @@ class Order extends Entity
 
 	public function setDescription(\models\ProductDescription $description)
 	{
-	   $this->description = $description;
+		$this->description = $description;
 	}
 
 	public function getDescription()
 	{
-	   return $this->description;
+		return $this->description;
 	}
 
 	public function setStatus($status)
 	{
-	   $this->status = $status;
+		$this->status = $status;
 	}
 
 	public function getStatus()
 	{
-	   return $this->status;
+		return $this->status;
 	}
 
 	// TODO:

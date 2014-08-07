@@ -80,82 +80,82 @@ class Discount extends Entity
 
 	public function setService(Service $service)
 	{
-	   $this->service = $service;
+		$this->service = $service;
 	}
 
 	public function getService()
 	{
-	   return $this->service;
+		return $this->service;
 	}
 
 	public function setOperator(Person $operator)
 	{
-	   $this->operator = $operator;
+		$this->operator = $operator;
 	}
 
 	public function getOperator()
 	{
-	   return $this->operator;
+		return $this->operator;
 	}
 
 	public function setPerson(Person $person)
 	{
-	   $this->person = $person;
+		$this->person = $person;
 	}
 
 	public function getPerson()
 	{
-	   return $this->person;
+		return $this->person;
 	}
 
 	public function setCompany(Company $company)
 	{
-	   $this->company = $company;
+		$this->company = $company;
 	}
 
 	public function getCompany()
 	{
-	   return $this->company;
+		return $this->company;
 	}
 
 	public function setDiscountType(DiscountType $discountType)
 	{
-	   $this->discountType = $discountType;
+		$this->discountType = $discountType;
 	}
 
 	public function getDiscountType()
 	{
-	   return $this->discountType;
+		return $this->discountType;
 	}
 
 	public function setDiscountValue($discountValue)
 	{
-	   $this->discountValue = $discountValue;
+		$this->discountValue = $discountValue;
 	}
 
 	public function getDiscountValue()
 	{
-	   return $this->discountValue;
+		return $this->discountValue;
 	}
 
 	public function setProduct(Product $product)
 	{
-	   $this->product = $product;
+		$this->product = $product;
 	}
 
 	public function getProduct()
 	{
-	   return $this->product;
+		return $this->product;
 	}
 
 	public function setCreateTime(\DateTime $createTime)
 	{
-	   $this->createTime = $createTime;
+		$this->createTime = $createTime;
 	}
 
 	public function getCreateTime()
 	{
-	   return $this->createTime;
+		return $this->createTime;
 	}
 
 	public function setDiscountCostMinimum($discountCostMinimum)

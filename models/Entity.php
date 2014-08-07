@@ -36,10 +36,10 @@ abstract class Entity
 	protected $deleted = FALSE;
 	
 
-    public function getId()
-    {
-    	return $this->id;
-    }
+	public function getId()
+	{
+		return $this->id;
+	}
 
 	public function getLastUpdate()
 	{
@@ -61,15 +61,15 @@ abstract class Entity
 		$this->creationTime = $creationTime;
 	}
 
-    public function setDeleted($deleted)
-    {
-        $this->deleted = $deleted;
-    }
+	public function setDeleted($deleted)
+	{
+		$this->deleted = $deleted;
+	}
 
-    public function getDeleted()
-    {
-        return $this->deleted;
-    }
+	public function getDeleted()
+	{
+		return $this->deleted;
+	}
 
 	// TODO: write data provider, update func, permit (like in Rails)
 	/**
